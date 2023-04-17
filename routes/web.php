@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Image;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $images = Image::all();
+    foreach($images as $image){
+        echo $image->image_path."<br>";
+        echo $image->description."<br>";
+    }
+    die();
+
+
     return view('welcome');
 });
