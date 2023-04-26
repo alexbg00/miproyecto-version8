@@ -11,9 +11,12 @@ InstaFrame fue creado por Alejandro Barrionuevo Guerrero.
 - Registro de usuario
 - Inicio de sesión
 - Subir imágenes
-- Ver imágenes
+- Ver imágenes de todos los usuarios
+- Eliminar tus imagenes
 - Agregar descripciones y etiquetas a las imágenes
 - Ver imágenes de otros usuarios
+- Modificar tu Usuario
+- Eliminar tus comentarios
 - Dar likes a las imágenes
 - Comentar en las imágenes
 
@@ -22,21 +25,25 @@ InstaFrame fue creado por Alejandro Barrionuevo Guerrero.
 - Laravel 8
 - Bootstrap 5
 - MySQL
+- Ajax
+- PHP 7.4
+- Railway
+- JavaScript
 
-## Instalación
+## Instalación Local del proyecto
 
 1. Clona el repositorio
 2. Instala las dependencias con `composer install`
 3. Crea una base de datos MySQL
 4. Copia el archivo `.env.example` y renómbralo como `.env`
-5. Edita el archivo `.env` y agrega los detalles de la base de datos
+5. Edita el archivo `.env` y agrega los detalles de la base de datos (Local)
 6. Genera una clave de aplicación con `php artisan key:generate`
-7. Ejecuta las migraciones de la base de datos con `php artisan migrate`
+7. Ejecuta las migraciones de la base de datos con `php artisan migrate` o `php artisan migrate -force`
 8. Inicia el servidor con `php artisan serve`
 
 ## Contribuir
 
-¡Siéntete libre de contribuir a InstaFrame! Si quieres contribuir, por favor crea un fork del repositorio, crea una rama, haz tus cambios y crea una solicitud de extracción.
+¡Siéntete libre de contribuir a InstaFrame! 
 
 ## Licencia
 
